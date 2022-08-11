@@ -1,5 +1,5 @@
 import { ThemeProvider } from '@mui/material';
-
+import './App.css';
 import NavBar from './components/NavBar';
 import theme from './themes/theme';
 
