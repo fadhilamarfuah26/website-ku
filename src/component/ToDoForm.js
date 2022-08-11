@@ -6,7 +6,7 @@ const ToDoForm = ({ handleClick }) => {
 
   return (
     <div className="todo-form">
-      <p>~ Today I need to ~</p>
+      <p>~ Kegiatan Pembinaan ~</p>
       <span>
         <TextField
           label="Task"

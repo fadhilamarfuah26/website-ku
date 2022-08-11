@@ -31,7 +31,7 @@ const HomeContent = () => {
 
   return (
     <div className="todo">
-      <h2 className="title">To-Do List</h2>
+      <h2 className="title">PEMBINAAN</h2>
       <ToDoForm handleClick={handleClick} />
       <ToDoList todos={todos} handleCheckbox={handleCheckbox} />
       <Button variant="outlined" color="error" onClick={removeCompleted}>
