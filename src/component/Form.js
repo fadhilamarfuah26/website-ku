@@ -20,7 +20,7 @@ const Form = () => {
 
   return (
     <div>
-      <Button variant="outlined" onClick={handleClickOpen}>
+      <Button variant="contained" onClick={handleClickOpen}>
         Tambah Pembinaan
       </Button>
       <Dialog open={open} onClose={handleClose}>
