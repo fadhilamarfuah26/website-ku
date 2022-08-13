@@ -32,6 +32,9 @@ const HomeContent = () => {
 
   return (
     <div>
+      <div className="form">
+      <Form/>
+    </div>
     <div className="todo">
       <h2 className="title">PEMBINAAN</h2>
       <ToDoForm handleClick={handleClick} />
@@ -40,9 +43,7 @@ const HomeContent = () => {
         Remove completed
       </Button>
     </div>
-    <div className="form">
-      <Form/>
-    </div>
+    
     </div>
   );
 };
