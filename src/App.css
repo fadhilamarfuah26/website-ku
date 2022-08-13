@@ -20,7 +20,7 @@
   flex-direction: column;
   width: 40%;
   margin: auto;
-  background-color: aliceblue;
+  background-color: dodgerblue;
   padding: 50px;
   border-radius: 30px;
 }
@@ -29,8 +29,8 @@
   display: flex;
   flex-direction: column;
   width: 40%;
-  margin: auto;
-  background-color: aliceblue;
+  margin: 30px;
+  background-color: darkblue;
   padding: 50px;
   border-radius: 30px;
 }
