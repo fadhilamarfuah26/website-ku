@@ -6,7 +6,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
-
+import AddIcon from '@mui/icons-material/Add';
 const Form = () => {
   const [open, setOpen] = React.useState(false);
 
@@ -20,7 +20,7 @@ const Form = () => {
 
   return (
     <div>
-      <Button variant="contained" onClick={handleClickOpen}>
+      <Button variant="contained" startIcon={<AddIcon/>} onClick={handleClickOpen}>
         Tambah Pembinaan
       </Button>
       <Dialog open={open} onClose={handleClose}>
@@ -50,8 +50,8 @@ const Form = () => {
           />
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose}>Cancel</Button>
-          <Button onClick={handleClose}>Subscribe</Button>
+          <Button variant="contained" onClick={handleClose}>Cancel</Button>
+          <Button variant="contained" onClick={handleClose}>Submit</Button>
         </DialogActions>
       </Dialog>
     </div>
