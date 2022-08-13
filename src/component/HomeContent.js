@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 import ToDoForm from '../component/ToDoForm';
 import ToDoList from '../component/ToDoList';
+import Form from './Form';
 
 const HomeContent = () => {
   const [todos, setTodos] = useState([]);
@@ -30,6 +31,7 @@ const HomeContent = () => {
   };
 
   return (
+    <div>
     <div className="todo">
       <h2 className="title">PEMBINAAN</h2>
       <ToDoForm handleClick={handleClick} />
@@ -37,6 +39,10 @@ const HomeContent = () => {
       <Button variant="outlined" color="error" onClick={removeCompleted}>
         Remove completed
       </Button>
+    </div>
+    <div className="form">
+      <Form/>
+    </div>
     </div>
   );
 };
