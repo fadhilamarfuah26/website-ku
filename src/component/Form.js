@@ -37,7 +37,7 @@ const Form = () => {
             label="Nama Siswa"
             type="email"
             fullWidth
-            variant="standard"
+            variant="filled"
           />
           <TextField
             autoFocus
@@ -46,7 +46,7 @@ const Form = () => {
             label="Kegiatan Pembinaan"
             type="email"
             fullWidth
-            variant="standard"
+            variant="filled"
           />
         </DialogContent>
         <DialogActions>
